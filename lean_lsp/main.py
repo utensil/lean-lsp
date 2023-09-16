@@ -18,7 +18,7 @@ def load(app):
         "lean-language-server": {
             "version": 2,
             "argv": ['lean-lsp'],
-            "languages": ["lean4", "lean"],
+            "languages": ["lean4", "lean", "ipynb"],
             "mime_types": [
                 "text/lean",
                 "text/x-lean",

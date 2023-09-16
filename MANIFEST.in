@@ -1,2 +1,3 @@
+recursive-include **
 include LICENSE
 include setup.cfg
