@@ -1,0 +1,7 @@
+{
+    "argv": ["python", "-m", "lean_lsp.kernel", "-f", "{connection_file}"],
+    "display_name": "Lean 4 LSP",
+    "language": "lean",
+    "version": "4",
+    "name": "lean-lsp-kernel"
+}

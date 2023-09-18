@@ -1,5 +1,7 @@
 # lean-lsp
 
+Status: deprecated. The experiment shows the Lean 4 language server is not yet ready for use in JupyterLab.
+
 Lean 4 language server wrapper for [Jupyter LSP](https://jupyterlab-lsp.readthedocs.io/en/latest/), making it possible to write/run Lean 4 in JupyterLab, utilizing the [Lean 4 Language Server implemented in Lean 4 itself](https://github.com/leanprover/lean4/tree/master/src/Lean/Server).
 
 ## Installation
@@ -9,9 +11,6 @@ Lean 4 language server wrapper for [Jupyter LSP](https://jupyterlab-lsp.readthed
 2. Install lean-lsp and its dependencies via `pip`:
 
 ```bash
-pip install 'jupyterlab>=4.0.0,<5.0.0a0'
-# pip install jupyterlab-lsp==5.0.0b1
-pip install git+https://github.com/utensil/jupyterlab-lsp.git@main#subdirectory=python_packages/jupyter_lsp
 pip install git+https://github.com/utensil/lean-lsp.git
 ```
 

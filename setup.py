@@ -24,4 +24,9 @@ from setuptools import setup
 #     }
 # )
 
-setup()
+setup(install_requires=[
+        "jupyterlab>=4.0.0,<5.0.0a0",
+        "jupyter-lsp @ git+https://github.com/jupyter-lsp/jupyterlab-lsp.git@main#subdirectory=python_packages/jupyter_lsp",
+        "traitlets",
+        "ipykernel"
+    ])

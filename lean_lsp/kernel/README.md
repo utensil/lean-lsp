@@ -1,0 +1,3 @@
+This kernel is adapted from https://github.com/bollwyvl/jupyterlab-lsp/tree/add-language-server-kernel/py_src/jupyter_lsp/kernel (last updated Jun 15, 2020). See also https://github.com/jupyter-lsp/jupyterlab-lsp/issues/268 and https://github.com/jupyter-lsp/jupyterlab-lsp/pull/278 .
+
+Lean Kernel can benefit from jupyter_lsp to interat with Lean 4 Language Server, but it might be nice to have more customization tailored for Lean 4 Language Server. So we forked the kernel.
